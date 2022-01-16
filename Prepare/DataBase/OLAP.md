@@ -1,7 +1,7 @@
 # OLAP
 
 ## OLAP Performance
-(https://www.itprotoday.com/sql-server/olap-performance)
+(https://www.itprotoday.com/sql-server/olap-performance)<br>
 
 Which of these helps OLAP speed up queries, in terms of performance?
 
@@ -11,7 +11,7 @@ Which of these helps OLAP speed up queries, in terms of performance?
 ### Ans - Aggregation
 
 ## OLAP Operations - 1
-(https://apandre.wordpress.com/data/datacube/)
+(https://apandre.wordpress.com/data/datacube/)<br>
 This OLAP operation involves computing all of the data relationships for one or more dimensions.
 
 - dice
@@ -22,7 +22,7 @@ This OLAP operation involves computing all of the data relationships for one or 
 ### Ans - roll-up
 
 ## OLAP Operations - 2
-(https://apandre.wordpress.com/data/datacube/)
+(https://apandre.wordpress.com/data/datacube/)<br>
 This OLAP Operation rotates the data, and delivers an alternative to the original presentation. 
 
 - pivot
@@ -85,8 +85,8 @@ Explaination -
 Input format - (a,b,c)
 Output format - (a,b,c) will need to find (d,e,f)
 
-Q1 - d = a*b*c
-Q2 - e = (a+1)(b+1)(c+1)
+Q1 - d = a*b*c <br>
+Q2 - e = (a+1)(b+1)(c+1) <br>
 Q3 - f = d + a(b+1)+1
 
 ### Ans - (4, 7, 3, 84, 160, 117)
