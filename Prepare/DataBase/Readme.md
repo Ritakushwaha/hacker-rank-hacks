@@ -1,4 +1,4 @@
-### Relational Algebra
+# Relational Algebra
 
 Learning material for set operation - (https://www.cuemath.com/algebra/operations-on-sets/)
 
@@ -13,7 +13,7 @@ Only enter the correct integer in the editor below. Do not include any extra spa
 
 (https://www.cuemath.com/algebra/operations-on-sets/)
 
-# Ans - 8
+### Ans - 8
 
 ## Basics of Sets and Relations #2
 
@@ -24,7 +24,7 @@ Set B = {2,3,4,5,6,7,8}
 How many elements are present A∩B in ?
 Only enter the correct integer in the answering box. Do not include any extra spaces, tabs or newlines.
 
-# Ans - 5
+### Ans - 5
 
 ## Basics of Sets and Relations #3
 
@@ -35,7 +35,7 @@ Set B = {2,3,4,5,6,7,8}
 How many elements are present in A - B?
 Only enter the correct integer in the answering box. Do not include any extra spaces, tabs or newlines.
 
-# Ans - 1
+### Ans - 1
 
 ## Basics of Sets and Relations #4
 
@@ -47,7 +47,7 @@ What is the total number of ordered pairs present in the Cartesian Product  AxB?
 
 (https://www.geeksforgeeks.org/cartesian-product-of-sets/)
 
-# Ans - 42
+### Ans - 42
 
 ## Basics of Sets and Relations #5
 
@@ -62,7 +62,7 @@ What is the count of rows returned in the following relational selection?
 
 Only enter a single integer. Do not include any extra spaces or newlines.
 
-# Ans - 2
+### Ans - 2
 
 ## Basics of Sets and Relations #6
 
@@ -77,7 +77,7 @@ What is the count of attributes (columns) returned in the following projection?
 
 Only enter a single integer. Do not include any extra spaces or newlines.
 
-# Ans - 2
+### Ans - 2
 
 ## Basics of Sets and Relations #7
 
@@ -98,5 +98,8 @@ Student ⊳⊲(Number=ID) Teaching Assistants
 
 Only enter a single integer. Do not include any extra spaces or newlines.
 
-# Ans - 2
+### Ans - 2
+
+
+
 
