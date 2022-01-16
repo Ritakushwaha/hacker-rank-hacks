@@ -21,7 +21,7 @@ Which of the following statement is true about row locators in non-clustered ind
 - If the table has a clustered index, or the index is on an indexed view, the row locator is the clustered index key for the row.
 - None of the above-mentioned statement is true.
 
-### Ans - If the table does not have a clustered index, the row locator is the clustered index key for the row.
+### Ans - If the table has a clustered index, or the index is on an indexed view, the row locator is the clustered index key for the row.
 
 ## Indexes - 3
 (https://www.mssqltips.com/sqlservertip/1940/understanding-sql-server-index-fill-factor-setting/)
