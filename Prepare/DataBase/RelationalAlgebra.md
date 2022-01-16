@@ -100,6 +100,68 @@ Only enter a single integer. Do not include any extra spaces or newlines.
 
 ### Ans - 2
 
+## Relations - 1
 
+The_____ operation allows the combining of two relations by merging pairs of tuples, one from each relation, into a single tuple.
 
+- Select
+- Join
+- Union
+- Intersection
 
+### Ans - Join
+
+## Relations - 2
+
+The result which operation contains all pairs of tuples from the two relations, regardless of whether their attribute values match.
+
+- Join
+- Cartesian product
+- Intersection
+- Set difference
+
+### Ans - Cartesian product
+
+## Relational Algebra - 3
+
+Which is a join condition contains an equality operator?
+
+- Equijoins
+- Cartesian
+- Natural
+- Left
+
+### Ans - Equijoins
+
+## Relational Algebra - 4
+
+In precedence of set operators the expression is evaluated from:
+
+- Depends on the expression
+- Left to right
+- Right to left
+- From user specification
+
+### Ans - Left to right
+
+## Database Query Languages
+
+Using which language can a user request information from a database ?
+ 
+- Query
+- Relational
+- Structural
+- Compiler
+
+### Ans - Query
+
+## Procedural Language
+
+Which one of the following is a procedural language ?
+
+- Domain relational calculus
+- Tuple relational calculus
+- Relational algebra
+- Query language
+
+### Ans - Relational algebra
