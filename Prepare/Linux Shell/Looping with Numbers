@@ -1,0 +1,36 @@
+Use a for loop to display the natural numbers from  to .
+
+Input Format
+
+There is no input
+
+Output Format
+
+1
+2
+3
+4
+5
+.
+.
+.
+.
+.
+50
+______________________________________________________________________________________________________________________________________
+for loops in Bash can be used in several ways: - iterating between two integers,  and  - iterating between two integers,  and , and incrementing by  each time - iterating through the elements of an array, etc.
+
+Recommended Resources
+
+A quick but useful tutorial for Bash newcomers is here. http://www.panix.com/~elflord/unix/bash-tute.html
+Handling input is documented and explained quite well on this page.https://tldp.org/LDP/Bash-Beginners-Guide/html/sect_08_02.html
+Different ways in which for loops may be used are explained with examples here. https://www.cyberciti.biz/faq/bash-for-loop/
+_________________________________________________________________________________________________________________________________________
+Code -
+
+#!/bin/bash
+for x in {1..50}
+ do
+  echo $x
+ done
+

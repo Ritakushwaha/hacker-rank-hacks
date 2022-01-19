@@ -1,0 +1,82 @@
+Given two integers,  and , identify whether  or  or .
+
+Exactly one of the following lines:
+- X is less than Y
+- X is greater than Y
+- X is equal to Y
+
+Input Format
+
+Two lines containing one integer each ( and , respectively).
+
+Constraints
+
+-
+
+Output Format
+
+Exactly one of the following lines:
+- X is less than Y
+- X is greater than Y
+- X is equal to Y
+
+Sample Input
+
+Sample Input 1
+
+5  
+2  
+Sample Input 2
+
+2
+2  
+Sample Input 3
+
+2
+3  
+Sample Output
+
+Sample Output 1
+
+X is greater than Y  
+Sample Output 2
+
+X is equal to Y   
+Sample Output 3
+
+X is less than Y  
+Explanation
+
+-________________________________________________________________________________________________________________________
+Comparisons in a shell script may either be accomplished using regular operators (such as <, > or =) or using the equivalent (-lt, -gt, -eq) for POSIX shells.
+
+if statements take the form
+
+if [[ condition ]]
+then
+	do this
+elif [[ condition ]]
+then
+	do this instead
+else
+	do this by default
+fi
+Note the spacing on the conditionals. There must be a space between the brackets and their contents, e.g.
+
+if [[ $a < $b ]]
+____________________________________________________________________________________________________________________________________
+Code -
+
+#!/bin/bash
+read x
+read y
+
+if [[ $x = $y ]]
+ then
+   echo 'X is equal to Y'
+elif [[ $x < $y ]]
+ then
+   echo 'X is less than Y'
+else
+  echo 'X is greater than Y'
+fi

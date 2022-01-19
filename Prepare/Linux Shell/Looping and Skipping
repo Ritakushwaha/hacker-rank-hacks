@@ -1,0 +1,61 @@
+Your task is to use for loops to display only odd natural numbers from  to .
+
+Input Format
+
+There is no input.
+
+Constraints
+
+-
+
+Output Format
+
+1
+3
+5
+.
+.
+.
+.
+.
+99  
+Sample Input
+
+-
+
+Sample Output
+
+1
+3
+5
+.
+.
+.
+.
+.
+99  
+Explanation
+
+-
+
+
+
+for loops in Bash can be used in several ways:
+- iterating between two integers,  and 
+- iterating between two integers,  and , and incrementing by  each time
+- iterating through the elements of an array, etc.
+
+Recommended Resources
+
+A quick but useful tutorial for bash newcomers is here.
+Handling input is documented and explained quite well on this page.
+Different ways in which for loops may be used are explained with examples here.
+
+
+Code 
+___________
+#!/bin/bash
+for x in {1..99..2}
+    do
+        echo $x
+    done
