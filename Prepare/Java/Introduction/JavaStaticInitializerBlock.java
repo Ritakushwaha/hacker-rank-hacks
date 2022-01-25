@@ -20,12 +20,6 @@ java.lang.Exception: Breadth and height must be positive
  */
 
 
-import java.io.*;
-import java.util.*;
-import java.text.*;
-import java.math.*;
-import java.util.regex.*;
-
 public class JavaStaticInitializerBlock {
 
 static boolean flag = true; 
@@ -45,6 +39,7 @@ static{
     }catch(Exception e){
         System.out.println(e);
     }
+    scan.close();
 }
 
 public static void main(String[] args){
