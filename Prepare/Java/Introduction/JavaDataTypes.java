@@ -1,5 +1,4 @@
 import java.util.*;
-import java.io.*;
 import java.lang.Math;
 
 
@@ -27,5 +26,6 @@ class JavaDataTypes{
             }
 
         }
+        sc.close();
     }
 }
