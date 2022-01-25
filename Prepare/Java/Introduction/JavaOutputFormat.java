@@ -38,6 +38,7 @@ public class JavaOutputFormat {
                 System.out.printf("%-15s%s%n", s1,x);
             }
         }
+        sc.close();
         System.out.println("================================");
     }
 }
