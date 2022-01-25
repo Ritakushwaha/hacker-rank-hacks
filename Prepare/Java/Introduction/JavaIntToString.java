@@ -1,4 +1,4 @@
-import java.io.*;
+
 import java.util.*;
 
 public class JavaIntToString {
@@ -14,5 +14,6 @@ public class JavaIntToString {
         else{
             System.out.println("Wrong answer");
         }
+        sc.close();
     }
 }
