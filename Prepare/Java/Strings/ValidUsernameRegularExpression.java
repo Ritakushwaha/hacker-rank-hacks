@@ -22,26 +22,28 @@ Invalid
 Invalid
  */
 
-import java.util.*;
-import java.util.regex.*;
+import java.util.Scanner;
+class UsernameValidator {
+    /*
+     * Write regular expression here.
+     */
+    public static final String regularExpression = "^[a-zA-Z][a-zA-Z0-9_]{7,29}$";
+}
+
 
 public class ValidUsernameRegularExpression {
+    private static final Scanner scan = new Scanner(System.in);
+    
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        try{
-            int testCases = sc.nextInt();
-            for(int i=0; i<testCases;i++){
-                String username = sc.next();
-                if(Pattern.matches("^[a-zA-Z][0-9_|a-zA-Z]{7,29}$", username)){
-                    System.out.println("Valid");
-                }else{
-                    System.out.println("Invalid");
-                }
-            }
-        }catch(InputMismatchException i){
-            System.out.println("First input should be integer.");
-        }finally{
-            sc.close();
+        int n = Integer.parseInt(scan.nextLine());
+        while (n-- != 0) {
+            String userName = scan.nextLine();
+
+            if (userName.matches(UsernameValidator.regularExpression)) {
+                System.out.println("Valid");
+            } else {
+                System.out.println("Invalid");
+            }           
         }
     }
 }
