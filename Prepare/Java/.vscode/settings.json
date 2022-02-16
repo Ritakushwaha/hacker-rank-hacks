@@ -1,6 +1,7 @@
 {
     "java.project.sourcePaths": [
+        "Strings",
         "Introduction",
-        "Strings"
+        "Exception Handling"
     ]
 }
