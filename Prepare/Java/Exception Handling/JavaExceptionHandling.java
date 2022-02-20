@@ -1,12 +1,17 @@
 import java.util.Scanner;
 
 public class JavaExceptionHandling {
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
         int b = sc.nextInt();
+        sc.close();
         MyCalculator mc = new MyCalculator(a,b);
-        System.out.println(mc.power(a, b));
+        try {
+            System.out.println(mc.power(a, b));
+        } catch (Exception e) {
+            System.out.println(e);
+        }
     }
 }
 
