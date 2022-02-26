@@ -2,6 +2,7 @@
     "java.project.sourcePaths": [
         "Strings",
         "Introduction",
-        "Exception Handling"
+        "Exception Handling",
+        "DataStructures"
     ]
 }
