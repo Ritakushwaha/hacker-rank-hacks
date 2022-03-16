@@ -1,5 +1,3 @@
-package Java.DataStructures;
-
 import java.util.*;
 
 public class Java2DArray {
