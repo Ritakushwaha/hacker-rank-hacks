@@ -1,9 +1,10 @@
 {
     "java.project.sourcePaths": [
-        "ObjectOrientedProgramming",
         "Strings",
+        "ObjectOrientedProgramming",
         "Introduction",
         "Exception Handling",
-        "DataStructures"
+        "DataStructures",
+        ""
     ]
 }
