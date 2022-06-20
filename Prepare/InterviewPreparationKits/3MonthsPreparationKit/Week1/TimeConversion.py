@@ -25,7 +25,7 @@ def timeConversion(s):
         if hh==12:
             hh=00
     
-    hour=(str(hh))
+    hour=(str(hh)).zfill(2)
     
     return f"{hour}{s[2:-2]}"
 
